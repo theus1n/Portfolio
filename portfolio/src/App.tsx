@@ -1,6 +1,6 @@
 
 import { useState, useRef, useEffect } from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin} from 'react-icons/fa';
 import { FiArrowRight } from 'react-icons/fi';
 import './App.css';
 import SpotlightCard from './blocks/Components/SpotlightCard/SpotlightCard';
