@@ -13,7 +13,7 @@ A modern, terminal-inspired portfolio web app built with Vite and React.
 
 ## Demo
 
-![screenshot](./portfolio/public/vite.svg)
+![screenshot](public/Demo.jpg)
 
 ## Getting Started
 
