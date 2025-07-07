@@ -7,10 +7,10 @@ import SpotlightCard from './blocks/Components/SpotlightCard/SpotlightCard';
 
 
 const SOCIALS = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/matheus-wagner-teixeira/', color: '#0077b5', icon: <FaLinkedin /> },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/matheus-wagner-teixeira/', color: '#1da1f2', icon: <FaLinkedin /> },
   { name: 'Github', url: 'https://github.com/theus1n', color: '#1da1f2', icon: <FaGithub /> },
 ];
-const GITHUB = { name: 'GitHub', url: 'https://github.com/theus1n', color: '#333', icon: <FaGithub /> };
+const GITHUB = { name: 'GitHub', url: 'https://github.com/theus1n/Portfolio', color: '#333', icon: <FaGithub /> };
 
 
 function App() {
@@ -65,13 +65,13 @@ function App() {
         setTerminalLines((lines) => [
           ...lines,
           'Available commands:',
-          'aboutme   Displays who I am?',
+          'about   Displays who I am?',
           'social    Lists social networks.',
           'email     To send me an email.',
           'history   View command history.',
           'help      Displays this help message.'
         ]);
-      } else if (lower === 'aboutme') {
+      } else if (lower === 'about') {
         setTerminalLines((lines) => [
           ...lines,
           'Hi, Im Matheus Wagner Teixeira, born on December 11, 1997. I have been passionate about technology since a young age, building and experimenting with computers long before I knew it would shape my future. I initially pursued a degree in nursing, but over time, my interest in tech evolved into a focused journey toward a career in web development. Today, Im dedicated to growing as a developer and bringing creative, functional solutions to life through code.'
@@ -138,7 +138,6 @@ function App() {
             </button>
           </div>
           <div className="terminal-title">
-            {/* Placeholder for React Bits animation */}
             <span>theus1n@dev </span>
           </div>
         </div>
